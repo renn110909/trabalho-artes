@@ -13,7 +13,7 @@ nav ul{
     justify-content: center;
     /* alinha os elementos filhos de uma div verticalmente */
     align-items: center;
-    background-color: rgba(184, 181, 158, 0.904);
+    background: #f3efe2;
 
     /* border: 1px solid tomato; */
 
