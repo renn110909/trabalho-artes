@@ -1,0 +1,22 @@
+/* um arquivo só para cuidar das imagens */
+main.conteiner div.imagens{
+    /* cria distancia entre os elementos filhos */
+    gap: 0.5%;
+    /* deixa tudo dentro do elemento pai como display inline-block */
+    display: flex;
+    padding: 1%;
+    /* border: 1px solid tomato; */
+
+    /* centraliza os elementos de uma div horizontalmente */
+    justify-content: center;
+}
+main.conteiner div.imagens img{
+    width: 10%;
+    /* adiciona uma transição mais bonita */
+    transition: 1s;
+}
+main.conteiner div.imagens img:hover{
+    /* aumenta a escala do item selecionado em x vezes */
+    transform: scale(1.2);
+}
+

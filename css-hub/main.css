@@ -1,0 +1,21 @@
+main{
+    z-index: 1;
+}
+main *{
+    margin-bottom: 2%;
+}
+main h1{
+    margin-top: 2%;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+}
+main.conteiner section.paragrafos{
+    display: flex;
+    justify-content: center;
+    border: 1px tomato;
+}
+main div.p{
+    width: 70%;
+}
