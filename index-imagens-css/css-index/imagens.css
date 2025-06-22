@@ -10,8 +10,11 @@ main.conteiner div.imagens{
     /* centraliza os elementos de uma div horizontalmente */
     justify-content: center;
 }
+main.conteiner div.imagens a.links{
+    width: 11%;
+}
 main.conteiner div.imagens img{
-    width: 10%;
+    width: 100%;
     /* adiciona uma transição mais bonita */
     transition: 1s;
 }

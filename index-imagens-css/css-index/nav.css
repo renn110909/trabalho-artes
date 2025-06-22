@@ -24,8 +24,6 @@ nav ul li{
 
     /* autura de 100% em relação com a tag semantic: nav */
     height: 100%;
-    display: flex;
-    align-items: center;
     transition: 1s;
 }
 nav ul li:hover{
