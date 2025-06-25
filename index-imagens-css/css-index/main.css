@@ -15,6 +15,7 @@ main.conteiner section.paragrafos{
     display: flex;
     justify-content: center;
     border: 1px tomato;
+    text-align: justify;
 }
 main div.p{
     width: 70%;

@@ -1,7 +1,10 @@
 /* um arquivo só para mexer na navbar */
 nav{
-    position: sticky;
+    
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 999;
 }
 nav ul{
@@ -13,7 +16,7 @@ nav ul{
     justify-content: center;
     /* alinha os elementos filhos de uma div verticalmente */
     align-items: center;
-    background: #cfb39e3b;
+    background: #cfb39e;
 
     /* border: 1px solid tomato; */
 
