@@ -1,0 +1,54 @@
+header{
+    position: relative;
+    background-image: url('michael-jackson-xscape-album-cover.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+header::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+section.conteudo-header{
+    width: 100%;
+    height: 91%;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid tomato; */
+    gap: 3%;
+    font-size: 2rem;
+}
+/* section.conteudo-header div.titulo-introducao{
+    border: 3px solid tomato;    
+} */
+section.conteudo-header div.titulo{
+    width: 35%;
+    margin: 1rem 5rem;
+}
+section.conteudo-header div.titulo h1{
+        text-shadow:
+        2px 2px 0 rgb(74, 74, 74),
+        -2px -2px 0 rgb(74, 74, 74),
+        2px -2px 0 rgb(74, 74, 74),
+        -2px 2px 0 rgb(74, 74, 74);
+}
+
+section.conteudo-header div.introducao  {
+    width: 35%;
+    margin: 1rem 5rem;
+        text-shadow:
+        2px 2px 0 rgb(74, 74, 74),
+        -2px -2px 0 rgb(74, 74, 74),
+        2px -2px 0 rgb(74, 74, 74),
+        -2px 2px 0 rgb(74, 74, 74);
+    
+
+
+}
