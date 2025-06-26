@@ -1,0 +1,25 @@
+/* um arquivo só para cuidar das imagens */
+section.menu-imagens{
+    width: 95%;
+    margin-top: 1rem;
+    /* cria distancia entre os elementos filhos */
+    gap: 0.5%;
+    /* deixa tudo dentro do elemento pai como display inline-block */
+    display: flex;
+    padding: 1%;
+    /* centraliza os elementos de uma div horizontalmente */
+    justify-content: center;
+}
+section.menu-imagens a.links{
+    width: 11%;
+}
+section.menu-imagens img{
+    width: 100%;
+    /* adiciona uma transição mais bonita */
+    transition: 1s;
+}
+section.menu-imagens img:hover{
+    /* aumenta a escala do item selecionado em x vezes */
+    transform: scale(1.2);
+}
+
