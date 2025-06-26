@@ -1,0 +1,41 @@
+/* um arquivo só para mexer na navbar */
+nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+nav ul{
+    display: flex;
+    /* muda o estilo da lista, nesse caso tirando o ponto antes do conteudo */
+    list-style: none;
+    gap: 4%;
+    font-size: 1.4rem;
+    justify-content: center;
+    /* alinha os elementos filhos de uma div verticalmente */
+    align-items: center;
+    background: #cfb39e;
+
+    /* border: 1px solid tomato; */
+
+    height: 50px;
+}
+nav ul li{
+    /* border: 1px solid tomato; */
+
+    /* autura de 100% em relação com a tag semantic: nav */
+    height: 100%;
+    transition: 1s;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+.links{
+    /* tira algum tipo de decoração do texto, nesse caso o sublinhado */
+    text-decoration: none;
+    /* muda a cor do texto */
+    color: white;
+}
