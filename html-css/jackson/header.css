@@ -5,6 +5,7 @@ header{
     background-size: cover;
     height: 100vh;
     color: rgb(255, 255, 255);
+    font-weight: 800;
 }
 header::before {
     content: ""; 
@@ -34,21 +35,18 @@ section.conteudo-header div.titulo{
 }
 section.conteudo-header div.titulo h1{
         text-shadow:
-        2px 2px 0 rgb(74, 74, 74),
-        -2px -2px 0 rgb(74, 74, 74),
-        2px -2px 0 rgb(74, 74, 74),
-        -2px 2px 0 rgb(74, 74, 74);
+        2px 2px 0 rgb(0, 0, 0),
+        -2px -2px 0 rgb(0, 0, 0),
+        2px -2px 0 rgb(0, 0, 0),
+        -2px 2px 0 rgb(0, 0, 0);
 }
 
 section.conteudo-header div.introducao  {
     width: 35%;
     margin: 1rem 5rem;
         text-shadow:
-        2px 2px 0 rgb(74, 74, 74),
-        -2px -2px 0 rgb(74, 74, 74),
-        2px -2px 0 rgb(74, 74, 74),
-        -2px 2px 0 rgb(74, 74, 74);
-    
-
-
+        2px 2px 0 rgb(0, 0, 0),
+        -2px -2px 0 rgb(0, 0, 0),
+        2px -2px 0 rgb(0, 0, 0),
+        -2px 2px 0 rgb(0, 0, 0);
 }
