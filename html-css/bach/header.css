@@ -26,7 +26,7 @@ section.conteudo-header{
     align-items: center;
     /* border: 3px solid tomato; */
     gap: 3%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 /* section.conteudo-header div.titulo-introducao{
