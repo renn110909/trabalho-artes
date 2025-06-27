@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musica</title>
+      <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color: #f5d76e;
+      background: #000 url('partitura.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+      color: #f5d76e;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .botao-musica {
+      text-align: center;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .botao-musica img {
+      width: 230px;
+      border-radius: 15px;
+      border: 2px solid #f5d76e;
+      box-shadow: 0 6px 15px rgba(245, 215, 110, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .botao-musica:hover img {
+      transform: scale(1.08);
+      box-shadow: 0 10px 25px rgba(245, 215, 110, 0.6);
+    }
+
+    .legenda {
+      margin-top: 0.7rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff8dc;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.75);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      .galeria {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .botao-musica img {
+        width: 40%;
+      }
+    }
+  </style>
+</head>
+<body>
+     <header>
+    <h1>Músicas de Beethoven</h1>
+  </header>
+
+  <section class="galeria">
+    <a href="https://www.youtube.com/watch?v=_mVW8tgGY_w" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="5ª Sinfonia">
+      <div class="legenda">5ª Sinfonia</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=t3217H8JppI" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="9ª Sinfonia">
+      <div class="legenda">9ª Sinfonia (Ode à Alegria)</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=4Tr0otuiQuU" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="Sonata ao Luar">
+      <div class="legenda">Sonata ao Luar</div>
+
+      <a href="https://www.youtube.com/watch?v=cPCLFtxpadE" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="Marcha Turca">
+      <div class="legenda">Marcha Turca</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=FXrNU35I4gE" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="Sinfonia nº 6">
+      <div class="legenda">Sinfonia nº 6 (Pastoral)</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=6z4KK7RWjmk" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="Sonata Appassionata">
+      <div class="legenda">Sonata “Appassionata”</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=zucBfXpCA6s" class="botao-musica" target="_blank">
+      <img src="play.svg" alt="Concerto nº 5">
+      <div class="legenda">Concerto nº 5 “Imperador”</div>
+    </a>
+  </section>
+  <a href="artes.html" style="color: #f5d76e; font-size: 1rem; background-color:  rgba(37, 37, 37, 0.8); padding: 5px; font-size: 1.2rem; text-decoration: underline; display: block; margin: 2rem;">
+  Voltar
+</a>
+</body>
+</html>

@@ -1,0 +1,98 @@
+  body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #f5d76e;
+    background: #000 url('partitura.jpg') no-repeat center center fixed;
+    background-size: cover;
+    }
+
+    nav {
+      background-color: #1c1c1c;
+      color: #f5d76e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links li a {
+      color: #f5d76e;
+      text-decoration: none;
+      font-size: 1.1rem;
+      position: relative;
+    }
+
+    .nav-links li a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #f5d76e;
+      bottom: -4px;
+      left: 0;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover::after {
+      width: 100%;
+    }
+
+    .nav-links li a:hover {
+      color: #fff;
+    }
+    p{
+        margin-bottom: 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.imagem {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.texto {
+  font-size: 1rem;
+  color: #fff;
+    background-color:  rgba(37, 37, 37, 0.8);
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.botao-imagem {
+      border: none;
+      padding: 0;
+      background: none;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .botao-imagem img {
+      width: 200px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .botao-imagem:hover img {
+      transform: scale(1.1);
+      box-shadow: 0 10px 20px rgba(255, 215, 0, 0.4);
+    }
