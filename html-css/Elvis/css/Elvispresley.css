@@ -47,12 +47,14 @@ body{
   background-color: burlywood;
  border:5px solid black;
  border-radius:1rem;
+ 
   
 }
 
 .linksnavega li{
   display:inline-block;
   padding: 0px 35px;
+  
 }
 
 
@@ -67,6 +69,7 @@ background-color:lightgray;
 border-radius: 1rem;
  margin-bottom:5px;
  margin-top:5px;
+ margin-left: 17px
 }
 
 button:hover{
@@ -77,8 +80,14 @@ button:hover{
       margin-left: 5px ;
       margin-right: 5px ;
     }
-
-
+#home{
+cursor:pointer;
+padding: 10px 20px;
+ margin-bottom:5px;
+ margin-top:5px;
+ border-radius:0
+  
+}
 
 
 
